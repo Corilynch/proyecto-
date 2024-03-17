@@ -6,6 +6,7 @@ class Artista(Usuario):
     def __init__(self, nombre, correo, tipo, id, username):
         super().__init__(nombre, correo, tipo, id, username )
         self.lista_de_albums = []
+        self.veces_escuchas = 0
         
     
     

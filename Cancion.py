@@ -6,6 +6,7 @@ class Cancion():
         self.likes = 0
         self.id = id 
         self.link = link 
+        self.veces_escuchas = 0
         
     def mostrar(self):
         print (f'''

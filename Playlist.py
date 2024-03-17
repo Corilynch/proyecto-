@@ -6,6 +6,7 @@ class Playlist ():
         self.descripcion = descripcion
         self.creador = creador
         self.tracks = tracks
+        self.veces_escuchas = 0
         
     def mostrar (self):
         print(f'''

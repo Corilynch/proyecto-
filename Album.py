@@ -9,6 +9,7 @@ class Album():
         self.id = id
         self.artista = artista 
         self.tracklist = []
+        self.veces_escuchas = 0
         
     def mostrar(self):
         print (f'''
